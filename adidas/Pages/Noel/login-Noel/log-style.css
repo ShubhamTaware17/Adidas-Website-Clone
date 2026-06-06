@@ -1,0 +1,772 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+}
+
+.display {
+    display: none !important;
+}
+
+.bar-2 ul {
+    gap: 0.9rem !important;
+}
+
+.navbar {
+    height: 7.5rem !important;
+}
+
+.bar-2 {
+    margin-top: 1px !important;
+}
+
+.bar-2 ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem !important;
+    font-size: 12px;
+    font-weight: lighter;
+    align-items: center;
+}
+
+.login {
+    margin-top: 12rem !important;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    gap: -10%;
+}
+
+.left-part {
+    width: 45%;
+}
+
+.join-club {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    transform: scaleX(1.1);
+    line-height: 1;
+    -webkit-text-stroke-width: 0.5px;
+    margin-left: -0.2rem !important;
+}
+
+.discription {
+    margin-top: 0.8rem;
+    margin-left: -2rem;
+}
+
+.rewards {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    margin-left: -1.6rem;
+    width: 100% !important;
+}
+
+.img img {
+    width: 100% !important;
+    height: 100%;
+    object-fit: contain;
+}
+
+.tick-img {
+    display: flex;
+    flex-direction: column;
+    margin-left: -1rem
+}
+
+.tick {
+    margin-top: 0.6rem;
+    margin-right: 0.5rem;
+    justify-content: center;
+    text-align: start;
+}
+
+.reward-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    margin-top: 13px;
+    color: #2d2d2d !important;
+}
+
+.left-part-last-p {
+    margin-top: 0.5rem;
+    margin-left: -2rem;
+}
+
+
+.right-part {
+    margin: 20px;
+    padding: 10px;
+    width: 50%;
+    margin-top: 10px;
+}
+
+h1 {
+    margin-top: 2rem;
+    font-weight: bolder;
+    transform: scaleX(1.1);
+    margin-left: 1.5rem !important;
+    font-size: 1.9rem;
+    line-height: 1;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.free-shipping {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    width: 100%;
+}
+
+.login-up {
+    margin-top: 20px;
+}
+
+.login-signup h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    height: 70px;
+    width: 240px;
+}
+
+.apple-icon {
+    border: 1px solid black;
+    height: 3rem;
+    width: 3.2rem;
+    cursor: pointer
+}
+
+.apple {
+    width: 1.5rem;
+    margin-top: 0.6rem;
+    margin-left: 0.8rem;
+    cursor: pointer;
+}
+
+.fb-icon {
+    border: 1px solid black;
+    height: 3rem;
+    width: 3.2rem;
+    padding: px;
+    cursor: pointer
+}
+
+.fb {
+    width: 1.5rem;
+    margin-left: 0.8rem;
+    margin-top: 0.6rem;
+}
+
+.g-icon {
+    border: 1px solid black;
+    height: 3rem;
+    width: 3.2rem;
+    padding: px;
+    cursor: pointer
+}
+
+.g {
+    margin-left: 0.8rem;
+    width: 1.5rem;
+    margin-top: 0.6rem;
+}
+
+#email {
+    padding: 1rem 0;
+    width: 100%;
+    margin-top: -7px;
+    font-size: 1rem;
+    /* color: black; */
+
+}
+
+.terms-condition {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.checkbox {
+    width: 50px;
+    height: 300px;
+}
+
+.check1 {
+    margin-top: 7px;
+}
+
+.checkbox1 {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.condition {
+    /* border: 1px solid red; */
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.para-check-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-left: -0.6rem;
+}
+
+.con1 p {
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    font-weight: lighter;
+}
+
+.con1 a {
+    margin-left: -0.2rem;
+    color: black !important;
+    padding: 3px 0px;
+    transition: all 0.2s;
+}
+
+.con1 a:hover {
+    background-color: black;
+    padding: 3px 0px;
+    color: white !important;
+}
+
+.check2 {
+    height: 30px;
+    width: 100%;
+    margin-top: 101px;
+}
+
+
+.checkbox1:checked {
+    accent-color: black;
+    font-size: small;
+}
+
+.checkbox2:checked {
+    accent-color: black;
+}
+
+.checkbox3:checked {
+    accent-color: black;
+}
+
+.condition {
+    font-size: 1rem;
+    margin-left: 10px;
+    height: 300px;
+}
+
+.buttonwrap {
+    background-color: none;
+    border: 1px solid black;
+    width: 167px;
+    margin-top: 10% !important;
+}
+
+.signupButton {
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-flex;
+    padding: 12px 32px;
+    position: relative;
+    white-space: nowrap;
+    width: auto;
+    justify-content: flex-start;
+    text-align: left;
+    transform: translate(-3px, -3px);
+
+}
+
+.free {
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.free:hover {
+    color: rgb(91, 90, 90);
+}
+
+.buttonContent {
+    flex: 1 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.buttonContent .material-symbols-sharp {
+    font-size: 15rem;
+}
+
+.terms-condition {
+    margin-bottom: -3rem;
+}
+
+@media screen and (max-width:1024px) {
+    .terms-condition {
+        margin-bottom: -12rem;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .login {
+        margin-top: 5rem !important;
+        display: flex;
+        flex-direction: column;
+        padding: 3rem;
+        gap: 2rem;
+    }
+
+    .buttonwrap {
+        margin-top: 9rem !important;
+    }
+
+    .left-part {
+        width: 110%;
+    }
+
+    .right-part {
+        width: 110% !important;
+        margin-left: -3rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .login {
+        margin-top: 8rem !important;
+        padding: 0;
+    }
+
+    .left-part {
+        display: none;
+    }
+
+    .right-part {
+        width: 110% !important;
+        /* border: 1px solid red; */
+        margin-left: -1.2rem;
+    }
+
+    .right-part h1 {
+        margin-left: 1rem !important;
+    }
+}
+
+@media screen and (max-width:463px) {
+    .terms-condition {
+        margin-bottom: -8rem !important;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .terms-condition {
+        margin-bottom: -5rem !important;
+    }
+}
+
+
+/* Button css */
+.buttonwrap {
+    background-color: none;
+    border: 1px solid black;
+    width: 10.3rem;
+}
+
+.signupButton svg {
+    transform: rotate(180deg);
+    width: 2rem;
+    margin-bottom: 4px;
+}
+
+.signupButton {
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    display: flex;
+    padding: 7px 15px;
+    position: relative;
+    width: auto;
+    justify-content: flex-start;
+    transform: translate(-3px, -3px);
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+
+.free {
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.free:hover {
+    transform: translate(0px, 0px);
+    /* -webkit-tap-highlight-color: rgba(138, 136, 136, 0); */
+    opacity: 0.1px;
+}
+
+.free:hover {
+    color: #767677;
+}
+
+/* Footer */
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'AdihausDIN'; */
+}
+
+.footer {
+
+    background-color: #f5f5e5;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    column-gap: 3.125rem;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+    align-content: center;
+}
+
+.left-half,
+.right-half {
+
+    box-sizing: border-box;
+}
+
+.left-half h1 {
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    margin: 0px 0px 0.625rem;
+    text-decoration: none solid rgb(0, 0, 0);
+
+}
+
+.right-half h2 {
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    margin: 0px 0px 0.625rem;
+
+}
+
+.left-half p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.375rem;
+}
+
+.right-half p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.375rem;
+}
+
+.blackNavbefore {
+    background-color: black;
+    color: white;
+    padding: 0.938rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.875rem;
+    font-weight: 700;
+    border-top: transparent;
+}
+
+.yellow {
+    background-color: #ede734;
+    padding: 2.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.yellow .footerCaption {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: bolder;
+    font-size: 1.875rem;
+    transform: scaleY(0.9);
+    flex-wrap: nowrap;
+    -webkit-text-stroke-width: 1px;
+    width: 50%;
+    letter-spacing: 1px;
+}
+
+.buttonwrapCss {
+    margin-right: 10rem;
+    background-color: none;
+    border: 1px solid black;
+}
+
+.signupButtonCss svg {
+    transform: rotate(180deg);
+    width: 2rem;
+    margin-bottom: 4px;
+}
+
+.signupButtonCss {
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    display: flex;
+    padding: 7px 10px;
+    position: relative;
+    width: auto;
+    justify-content: flex-start;
+    transform: translate(-3px, -3px);
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+
+.freeCss {
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.freeCss:hover {
+    transform: translate(0px, 0px);
+    /* -webkit-tap-highlight-color: rgba(138, 136, 136, 0); */
+    opacity: 0.1px;
+}
+
+.freeCss:hover {
+    color: #767677;
+}
+
+.buttonContentCss {
+    flex: 1 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.buttonContentCss .material-symbols-sharp {
+    font-size: 15rem;
+}
+
+.afterblacknav {
+    background-color: black;
+    font-size: 0.938rem;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+.afterblacknav ul {
+    list-style: none;
+}
+
+.afterblacknav li {
+    padding: 0.625rem 0.938rem;
+
+}
+
+.afterblacknav a {
+    text-decoration: none;
+    color: white;
+}
+
+.afterblacknav a:hover {
+    text-decoration: underline;
+}
+
+.footerlist {
+    /* width:65%; */
+    margin: auto;
+    padding-bottom: 1.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footerlist h5 {
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footerlist li {
+    list-style: none;
+    font-size: 0.875rem;
+    margin-bottom: 0.625rem;
+    cursor: pointer;
+}
+
+.adi-list-product {
+    padding: 1.25rem;
+}
+
+.adi-list-sports {
+    padding: 1.25rem;
+}
+
+.adi-list-collections {
+    padding: 1.25rem;
+}
+
+.adi-list-support {
+    padding: 1.25rem;
+}
+
+.adi-list-company-info {
+    padding: 1.25rem;
+}
+
+.adi-list-follow-us {
+    padding: 1.25rem;
+}
+
+.grayfooter {
+    background-color: #282c31;
+    /* width:100%; */
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.topcontent {
+    color: #D3D7DA;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+}
+
+.bottomcontent {
+    color: #D3D7DA;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width:778px) {
+    .btn-signup {
+        margin-top: 15rem !important;
+    }
+}
+
+@media screen and (min-width: 290px) and (max-width: 959px) {
+    .footer .container {
+        flex-direction: column;
+    }
+
+    .footer .left-half,
+    .footer .right-half {
+        width: 100%;
+    }
+
+    .yellow {
+        flex-direction: column !important;
+    }
+
+    .footerCaption {
+        margin: auto;
+        text-align: center;
+        font-size: 1.3rem !important;
+    }
+
+    .buttonwrapCss {
+        /* border: 0.04rem; */
+        /* position: absolute; */
+        margin-right: 0rem;
+    }
+
+    .footerlist {
+        display: none;
+    }
+}
+
+@media screen and (min-width:960px) {
+    .blackNavbefore {
+        display: none;
+    }
+
+    .afterblacknav {
+        display: none;
+    }
+
+    .yellow .footercaption {
+        display: inline-block;
+
+    }
+
+}
+
+@media screen and (max-width:1024px) and (min-width: 960px) {
+    .footer {
+        margin-top: 5rem !important;
+    }
+
+    .buttonwrap {
+        margin-top: 13rem !important;
+    }
+
+    .right-part {
+        margin-left: 1rem;
+    }
+
+    .buttonwrapCss {
+        width: 20rem;
+    }
+}

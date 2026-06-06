@@ -1,0 +1,302 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.bar-2 ul {
+    gap: 0.9rem !important;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    border-bottom: 1px solid #ECEFF1;
+    background-color: white;
+    height: 8rem;
+    z-index: 99999;
+}
+
+.header-black-section {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    width: 100%;
+    background-color: black;
+    padding: 12px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-transform: uppercase;
+}
+
+.header-black-section span {
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    transform: scaleY(1.2);
+}
+
+.header-black-section i {
+    font-size: 15px;
+}
+
+.bar-2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 50px;
+}
+
+.bar-2 ul {
+    display: flex;
+    list-style-type: none;
+    gap: 0.3rem;
+    font-size: 12px;
+    font-weight: lighter;
+    align-items: center;
+}
+
+.bar-2 ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.bar-2 ul a:hover {
+    text-decoration: underline;
+}
+
+.bar-2 ul li {
+    font-weight: 0;
+    cursor: pointer;
+}
+
+.bar-2 ul li:hover {
+    text-decoration: underline;
+}
+
+.header-main-session {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 0px !important;
+}
+
+.adidas-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.header-menu-section {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-menu-section ul {
+    display: flex;
+    list-style-type: none;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+}
+
+.header-menu-section ul li .menu-bar {
+    text-transform: uppercase;
+    position: relative;
+    border: 3px solid transparent;
+    padding: 12px 5px;
+    z-index: 99;
+    text-decoration: none;
+    color: black;
+}
+
+.header-menu-section ul li .menu-bar:hover {
+    z-index: 20;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+    border-radius: 0 0 4px 4px;
+}
+
+.header-menu-section .red:hover {
+    border-bottom: 3px solid #E32B2B !important;
+    cursor: pointer;
+}
+
+.menu-bold {
+    font-weight: 550;
+    border: none;
+}
+
+.menu-bold .red {
+    color: #E32B2B !important;
+}
+
+.search-section-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.input-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ECEFF1;
+    padding: 8px 10px;
+    width: 12rem;
+}
+
+.input-section-header i {
+    font-size: 18px;
+}
+
+.input-section-header input {
+    background-color: #ECEFF1;
+    border: none;
+    outline: none;
+}
+
+.input-section-header input::placeholder {
+    color: black;
+    letter-spacing: 1px;
+}
+
+.logo-section-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo-section-header i {
+    font-size: 18px;
+}
+
+.cart {
+    height: 20px;
+}
+
+.logo-section-header {
+    display: flex;
+}
+
+.user-header {
+    position: relative;
+    display: flex;
+}
+
+.count {
+    padding: 4px 8px;
+    background-color: #FFD619;
+    border-radius: 100%;
+    position: absolute;
+    top: -16px;
+    right: -12px;
+    font-size: 10px;
+    font-weight: bold;
+    animation: bounce 3s cubic-bezier(.25, .1, .25, 1) infinite;
+}.card .card1:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ad8cd739ab2b4539a264ae8b00ea2902_9366/Studio_Lounge_Fleece_Hoodie_Blue_HK4588_23_hover_model.jpg');
+}
+
+.card .card2:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/38bf7cff062a445a92f9af310113a039_9366/RIFTA_City_Boy_Hoodie_Blue_IC8391_23_hover_model.jpg');
+}
+
+.card .card3:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/31a7abb6f7e04353bbddaf66007a93f0_9366/CAMOUFLAGE_HOODED_SWEATSHIRT_Grey_IU3114_23_hover_model.jpg');
+}
+
+.card .card4:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/92053791ad32478aac90ae1a014160d1_9366/FULLZIP_HOODED_TRACK_TOP_Grey_HB0879_22_model.jpg');
+}
+
+.card .card5:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/43f7592facd74d8ba8beaf460149c4d6_9366/Yoga_Base_Training_AEROREADY_Full-Zip_Hoodie_Brown_IC7289_23_hover_model.jpg');
+}
+
+.card .card6:hover img {
+    content: url('https://assets.adidas.com/images/c_crop,f_auto,fl_lossy,g_north,h_840,q_auto,y_40/h_840/f8b6e0996253460891b4ae790068ce07_9366/Essentials_Dye_Hoodie_Blue_HK7508_01_laydown.jpg');
+}
+
+.card .card7:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d7744480d56644839daaae2100ab2b43_9366/FUTURE_ICONS_COLORBLOCK_FULLZIP_HOODED_TRACK_TOP_Black_HA8555_22_model.jpg');
+}
+
+.card .card8:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1b7e8d44ff95456f8f98ae1d00a4aa92_9366/FUTURE_ICONS_COLORBLOCK_FULLZIP_HOODED_TRACK_TOP_Burgundy_HA8554_22_model.jpg');
+}
+
+.card .card9:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f73f050ca9d4f90bca3af2a010e7e92_9366/Manchester_United_Chinese_Story_Hoodie_Red_HT1992_23_hover_model.jpg');
+}
+
+.card .card10:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b0faf2aded044fcf8ed3ae9101158f22_9366/Essentials_Reflect-in-the-Dark_Polar_Fleece_Full-Zip_Hoodie_Black_HL6908_23_hover_model.jpg');
+}
+
+.card .card11:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e3ac5437293b47baa300ae4a012c9c77_9366/ADIDAS_MOSCOW_GRAPHIC_TEE_Black_HL1661_23_hover_model.jpg');
+}
+
+.card .card12:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4c917050a06544c7895bafd000f87fea_9366/Adicolor_Neuclassics_Hoodie_Purple_IN4675_23_hover_model.jpg');
+}
+
+.card .card13:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f20b76a7df24976a57eaf140122982c_9366/3-STRIPES_FT_FULL-ZIP_HOODIE_Yellow_HS8105_22_model.jpg');
+}
+
+.card .card14:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2c39d9dcd43549989b0aaf14012a082c_9366/3-STRIPES_FT_FULL-ZIP_HOODIE_Blue_IA5129_22_model.jpg');
+}
+
+.card .card15:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e3eb902280634be5b117aee0009bc1ef_9366/adidas_Rekive_Graphic_Hoodie_Blue_HK7356_23_hover_model.jpg');
+}
+
+.card .card16:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/54969255c1844da68327aee500dbacc1_9366/Essentials_for_Gameday_Fleece_Full-Zip_Hoodie_Grey_HL6910_23_hover_model.jpg');
+}
+
+.card .card17:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/caf1a8372820469983d9ae8b010d3484_9366/Studio_Lounge_Fleece_Hoodie_Yellow_HK4592_23_hover_model.jpg');
+}
+
+.card .card18:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d5d980dd64c2476f879aae93001cde03_9366/T365_FULLZIP_TRACKJACKET_Grey_HN3781_23_hover_model.jpg');
+}
+
+.card .card19:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2afb3e1715a846c481a9aefc00e6b4ea_9366/Lounge_Fleece_Hoodie_White_IA9343_23_hover_model.jpg');
+}
+
+.card .card20:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d375a235062e48388bc9af66007a4f91_9366/CAMOUFLAGE_HOODED_SWEATSHIRT_Black_IU3113_22_model.jpg');
+}
+
+.card .card21:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/dfe58bf01bf947a6850fafd000dbe6c3_9366/Adicolor_Seasonal_Archive_Hoodie_Beige_IM4412_23_hover_model.jpg');
+}
+
+.card .card22:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d2cf97206df64f88b32cafc200f5424c_9366/Adicolor_Adibreak_Full-Zip_Hoodie_Black_IN8079_23_hover_model.jpg');
+}
+
+.card .card23:hover img {
+    content: url('https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/efe16a0da156433a93df6b70e292c477_9366/Real_Madrid_LFSTLR_Hoodie_Black_HY0626_23_hover_model.jpg');
+}
+
+.card .card24:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/edbe01d1aa14488b872770aa442340c0_9366/Manchester_United_LFSTLR_Hoodie_White_IA8545_23_hover_model.jpg');
+}.card-container{
+    font-size: 16px !important;
+}

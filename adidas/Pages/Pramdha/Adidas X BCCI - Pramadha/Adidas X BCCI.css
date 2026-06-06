@@ -1,0 +1,319 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    border-bottom: 1px solid #ECEFF1;
+    background-color: white;
+    height: 8rem;
+    z-index: 99999;
+}
+
+.bar-2 ul {
+    gap: 0.9rem !important;
+}
+
+.header-black-section {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    width: 100%;
+    background-color: black;
+    padding: 12px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-transform: uppercase;
+}
+
+.header-black-section span {
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    transform: scaleY(1.2);
+}
+
+.header-black-section i {
+    font-size: 15px;
+}
+
+.bar-2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 50px;
+}
+
+.bar-2 ul {
+    display: flex;
+    list-style-type: none;
+    gap: 0.3rem;
+    font-size: 12px;
+    font-weight: lighter;
+    align-items: center;
+}
+
+.bar-2 ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.bar-2 ul a:hover {
+    text-decoration: underline;
+}
+
+.bar-2 ul li {
+    font-weight: 0;
+    cursor: pointer;
+}
+
+.bar-2 ul li:hover {
+    text-decoration: underline;
+}
+
+.header-main-session {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 0px !important;
+}
+
+.adidas-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.header-menu-section {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-menu-section ul {
+    display: flex;
+    list-style-type: none;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+}
+
+.header-menu-section ul li .menu-bar {
+    text-transform: uppercase;
+    position: relative;
+    border: 3px solid transparent;
+    padding: 12px 5px;
+    z-index: 99;
+    text-decoration: none;
+    color: black;
+}
+
+.header-menu-section ul li .menu-bar:hover {
+    z-index: 20;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+    border-radius: 0 0 4px 4px;
+}
+
+.header-menu-section .red:hover {
+    border-bottom: 3px solid #E32B2B !important;
+    cursor: pointer;
+}
+
+.menu-bold {
+    font-weight: 550;
+    border: none;
+}
+
+.menu-bold .red {
+    color: #E32B2B !important;
+}
+
+.search-section-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.input-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ECEFF1;
+    padding: 8px 10px;
+    width: 12rem;
+}
+
+.input-section-header i {
+    font-size: 18px;
+}
+
+.input-section-header input {
+    background-color: #ECEFF1;
+    border: none;
+    outline: none;
+}
+
+.input-section-header input::placeholder {
+    color: black;
+    letter-spacing: 1px;
+}
+
+.logo-section-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo-section-header i {
+    font-size: 18px;
+}
+
+.cart {
+    height: 20px;
+}
+
+.logo-section-header {
+    display: flex;
+}
+
+.user-header {
+    position: relative;
+    display: flex;
+}
+
+.count {
+    padding: 4px 8px;
+    background-color: #FFD619;
+    border-radius: 100%;
+    position: absolute;
+    top: -16px;
+    right: -12px;
+    font-size: 10px;
+    font-weight: bold;
+    animation: bounce 3s cubic-bezier(.25, .1, .25, 1) infinite;
+}
+
+
+.card .card1:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f1e75aca52014a959017e46b94cbca39_9366/INDIA_CRICKET_TRI_COLOR_JERSEY_WITH_2_STARS_MEN_Blue_JC8812_22_model.jpg');
+}
+
+.card .card2:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0d1bc0fc3fea4ebc99ea53d6708eae9c_9366/INDIA_CRICKET_TRI_COLOR_JERSEY_WITH_2_STARS_WOMEN_Blue_JC8811_03_standard.jpg');
+}
+
+.card .card3:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7336cca14bf8420b929167aed3684db9_9366/INDIA_LIMITED_EDITION_SHOE_MEN_White_IV2140_02_standard_hover.jpg');
+}
+
+.card .card4:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8d825da2f32a4e6c9c63a4fa1c0fc745_9366/T20_INTERNATIONAL_CRICKET_JERSEY_Blue_JE0092_23_hover_model.jpg');
+}
+
+.card .card5:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/886f2307a2104024a1706e4bdd80e2ae_9366/TEST_MATCH_CRICKET_JERSEY_White_JE0091_23_hover_model.jpg');
+}
+
+.card .card6:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1decc8529b1c47dcbbb9774f71fc41c4_9366/INDIA_CRICKET_TRAINING_JSY_W_Orange_JJ1143_22_model.jpg')
+}
+
+.card .card7:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1bfc033774424a9a913e413f6b8d527e_9366/INDIA_CRICKET_TRAINING_JERSEY_Orange_JJ1141_23_hover_model.jpg');
+}
+
+.card .card8:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/647e42e4bc694a428c024dcb967c127b_9366/INDIA_CRICKET_TRAINING_JSY_W_Blue_IX7147_22_model.jpg');
+}
+
+.card .card9:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3b2e47b1d10f4bc28238022aa044bbdb_9366/INDIA_CRICKET_ODI_REPLICA_JERSEY_KIDS_Blue_IX7161_02_laydown_hover.jpg');
+}
+
+.card .card10:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0d1bc0fc3fea4ebc99ea53d6708eae9c_9366/INDIA_CRICKET_TRI_COLOR_JERSEY_WITH_2_STARS_WOMEN_Blue_JC8811_03_standard.jpg');
+}
+
+.card .card11:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b03f18ed828e403e98e5812ceebd5fd8_9366/INDIA_CRICKET_TIRO_PANTS_Black_IX7155_22_model.jpg');
+}
+
+.card .card12:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8d825da2f32a4e6c9c63a4fa1c0fc745_9366/T20_INTERNATIONAL_CRICKET_JERSEY_Blue_JE0092_23_hover_model.jpg');
+}
+
+.card .card13:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/886f2307a2104024a1706e4bdd80e2ae_9366/TEST_MATCH_CRICKET_JERSEY_White_JE0091_23_hover_model.jpg');
+}
+
+.card .card14:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1decc8529b1c47dcbbb9774f71fc41c4_9366/INDIA_CRICKET_TRAINING_JSY_W_Orange_JJ1143_22_model.jpg')
+}
+
+.card .card15:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3337ce5c74724aa8b3423df380f1caa6_9366/INDIA_CRICKET_TRAVEL_TRACK_SUIT_Black_IX7130_23_hover_model.jpg');
+}
+
+.card .card16:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c7629b6ade3f409c9e7812e64d1ef226_9366/INDIA_CRICKET_ODI_PULLOVER_White_IX7129_22_model.jpg');
+}
+
+.card .card17:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f1e75aca52014a959017e46b94cbca39_9366/INDIA_CRICKET_TRI_COLOR_JERSEY_WITH_2_STARS_MEN_Blue_JC8812_22_model.jpg');
+}
+
+.card .card18:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0d1bc0fc3fea4ebc99ea53d6708eae9c_9366/INDIA_CRICKET_TRI_COLOR_JERSEY_WITH_2_STARS_WOMEN_Blue_JC8811_03_standard.jpg');
+}
+
+.card .card19:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7336cca14bf8420b929167aed3684db9_9366/INDIA_LIMITED_EDITION_SHOE_MEN_White_IV2140_02_standard_hover.jpg');
+}
+
+.card .card20:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8d825da2f32a4e6c9c63a4fa1c0fc745_9366/T20_INTERNATIONAL_CRICKET_JERSEY_Blue_JE0092_23_hover_model.jpg');
+}
+
+.card .card21:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a8eaed992b2840509614234aa01e6170_9366/India_Cricket_Anthem_Jacket_Women_Blue_JJ1159_23_hover_model.jpg');
+}
+
+.card .card22:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/89e47cb8a86b4b7d802b8137d68595ea_9366/INDIA_CRICKET_TRAINING_SHORTS_Blue_IX7140_22_model.jpg')
+}
+
+.card .card23:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1bfc033774424a9a913e413f6b8d527e_9366/INDIA_CRICKET_TRAINING_JERSEY_Orange_JJ1141_23_hover_model.jpg');
+}
+
+.card .card24:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/647e42e4bc694a428c024dcb967c127b_9366/INDIA_CRICKET_TRAINING_JSY_W_Blue_IX7147_22_model.jpg');
+}
+
+.card .card25:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b218b2d85d994cc38618a3caadd45fce_9366/INDIA_CRICKET_TIRO_PANTS_Black_IX7152_25_model.jpg');
+}
+
+.card .card26:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/53b08456151249d593bba879011de9ed_9366/adidas_Towel_Small_Black_DH2860_41_detail_hover.jpg');
+}
+
+.card .card27:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b5cd52185a25446ea6ebbcb0e93eea33_9366/CRICUP_23_CRICKET_SHOES_White_IQ8795_02_standard_hover.jpg');
+}
+
+.card .card28:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f850d7fcd8574faa8124d3c420b6465c_9366/ADIDAS_CRICKET_SLOGAN_TEE_Black_JD8477_22_model.jpg');
+}

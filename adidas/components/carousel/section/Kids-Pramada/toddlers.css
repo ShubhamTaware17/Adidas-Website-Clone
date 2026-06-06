@@ -1,0 +1,299 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    /* font-weight: lighter; */
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    border-bottom: 1px solid #ECEFF1;
+    background-color: white;
+    height: 8rem;
+    z-index: 99999;
+}
+
+.header-black-section {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    width: 100%;
+    background-color: black;
+    padding: 12px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-transform: uppercase;
+}
+
+.header-black-section span {
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    transform: scaleY(1.2);
+}
+
+.header-black-section i {
+    font-size: 15px;
+}
+
+.bar-2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 50px;
+}
+
+.bar-2 ul {
+    display: flex;
+    list-style-type: none;
+    gap: 0.8rem !important;
+    font-size: 12px;
+    font-weight: lighter;
+    align-items: center;
+}
+
+.bar-2 ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.bar-2 ul a:hover {
+    text-decoration: underline;
+}
+
+.bar-2 ul li {
+    font-weight: 0;
+    cursor: pointer;
+}
+
+.bar-2 ul li:hover {
+    text-decoration: underline;
+}
+
+.header-main-session {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 0px !important;
+}
+
+.adidas-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.header-menu-section {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-menu-section ul {
+    display: flex;
+    list-style-type: none;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+}
+
+.header-menu-section ul li .menu-bar {
+    text-transform: uppercase;
+    position: relative;
+    border: 3px solid transparent;
+    padding: 12px 5px;
+    z-index: 99;
+    text-decoration: none;
+    color: black;
+}
+
+.header-menu-section ul li .menu-bar:hover {
+    z-index: 20;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+    border-radius: 0 0 4px 4px;
+}
+
+.header-menu-section .red:hover {
+    border-bottom: 3px solid #E32B2B !important;
+    cursor: pointer;
+}
+
+.menu-bold {
+    font-weight: 550;
+    border: none;
+}
+
+.menu-bold .red {
+    color: #E32B2B !important;
+}
+
+.search-section-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.input-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ECEFF1;
+    padding: 8px 10px;
+    width: 12rem;
+}
+
+.input-section-header i {
+    font-size: 18px;
+}
+
+.input-section-header input {
+    background-color: #ECEFF1;
+    border: none;
+    outline: none;
+}
+
+.input-section-header input::placeholder {
+    color: black;
+    letter-spacing: 1px;
+}
+
+.logo-section-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo-section-header i {
+    font-size: 18px;
+}
+
+.cart {
+    height: 20px;
+}
+
+.logo-section-header {
+    display: flex;
+}
+
+.user-header {
+    position: relative;
+    display: flex;
+}
+
+.count {
+    padding: 4px 8px;
+    background-color: #FFD619;
+    border-radius: 100%;
+    position: absolute;
+    top: -16px;
+    right: -12px;
+    font-size: 10px;
+    font-weight: bold;
+    animation: bounce 3s cubic-bezier(.25, .1, .25, 1) infinite;
+}
+
+
+.card .card1:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/08f0429e2b0b4060898535eebbc1d267_9366/Tensaur_Run_2.0_Shoes_Kids_Black_IF0361_012_hover_standard.jpg');
+}
+
+.card .card2:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/567aa9e32e4a459b918daae800ef6051_9366/Superstar_Shoes_White_FU7717_02_standard_hover.jpg')
+}
+
+.card .card3:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/239654666a0342d2a3229468052ca231_9366/Tensaur_Run_2.0_Shoes_Kids_Black_IF0364_02_standard_hover.jpg')
+}
+
+.card .card4:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/84931bf4bc1948c0a1d5ab2300c26a46_9366/Superstar_Shoes_White_EF4842_02_standard_hover.jpg');
+}
+
+.card .card5:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/864581fa013640819170af5c00e5bb3c_9366/Disney_x_MONOFIT_Trainer_Lifestyle_Slip-On_Shoes_Black_HP7774_02_standard_hover.jpg');
+}
+
+.card .card6:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b885c66e75a548f0a623afc300960086_9366/Graphic_Shorts_and_Tee_Set_Blue_IM1840_01_laydown.jpg');
+}
+
+.card .card7:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/74ebbea63d2a4637aa79af5c00f00d17_9366/Disney_MONOFIT_Trainer_Lifestyle_Slip-on_Shoes_Red_HP7772_02_standard_hover.jpg');
+}
+
+.card .card8:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9dfac186ef3d44e6a939f6f5d0ba8594_9366/adidas_x_LEGOr_Racer_TR21_Elastic_Lace_and_Top_Strap_Shoes_Purple_ID7367_02_standard_hover.jpg');
+}
+
+.card .card9:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9cfbad92da5849d3b2405fc40e16778e_9366/adidas_x_Disney_Mickey_Mouse_Crewneck_and_Jogger_Set_Red_IN7286_03_laydown_hover.jpg');
+}
+
+.card .card10:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3833ccd43cd84ad9a67bb36e0c487c53_9366/Monofit_Slip-On_Shoes_Pink_ID8399_02_standard_hover.jpg');
+}
+
+.card .card11:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/08f0429e2b0b4060898535eebbc1d267_9366/Tensaur_Run_2.0_Shoes_Kids_Black_IF0361_012_hover_standard.jpg');
+}
+
+.card .card12:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/be23bb1261fa494c8b64af8800a2b14b_9366/adidas_Superstar_360_x_LEGOr_Shoes_Pink_IF2169_02_standard_hover.jpg');
+}
+
+.card .card13:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/560961a66fb14b5082ebaf9000e7c0b6_9366/adidas_DNA_x_LEGOr_Two-Strap_Hook-and-Loop_Shoes_Black_HQ1309_HM2_hover.jpg');
+}
+
+.card .card14:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ede6183d5c7146ceb2b4af9c014d20a4_9366/Superstar_360_x_Moomin_Shoes_Blue_ID6650_02_standard_hover.jpg');
+}
+
+.card .card15:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8f77fa7dab454843b2e0ae8500a25d4d_9366/adidas_x_Classic_LEGOr_Bodysuit_White_HM2211_02_laydown_hover.jpg');
+}
+
+.card .card16:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbbe11f0da4b4eb2882888c4ffcc8650_9366/Superstar_360_Boots_Kids_Black_ID9465_02_standard_hover.jpg');
+}
+
+.card .card17:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f1f98009204d4e069b6df7bbe3820f7c_9366/adidas_FortaRun_x_Disney_Mickey_Mouse_Shoes_Kids_Black_IG7166_02_standard_hover.jpg');
+}
+
+.card .card18:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bb0e44ea8c364faeaf16af1000a36f0c_9366/adidas_x_LEGOr_Play_Tee-and-Shorts_Set_White_HB4429_03_laydown.jpg');
+}
+
+.card .card19:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4889eb2bd8b34d5db2ab3879f3df2902_9366/Monofit_Slip-On_Shoes_Grey_ID9645_02_standard_hover.jpg');
+}
+
+.card .card20:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/992f5d60d9ea4fa8b95869d75445e31f_9366/Monofit_Slip-On_Shoes_Pink_IG4931_02_standard_hover.jpg');
+}
+
+.card .card21:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2971d0ac353a45748f6100d16c76ef9c_9366/adidas_Grand_Court_x_Disney_Grogu_Shoes_Kids_Green_IG0450_02_standard.jpg');
+}
+
+.card .card22:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/619b51d721054fd0ada98d4865c60474_9366/adidas_Suru365_x_Disney_Mickey_Mouse_Shoes_Kids_Blue_IG7179_02_standard_hover.jpg');
+}
+
+.card .card23:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ed775eccce8d47b49be0ae5e01804e59_9366/adidas_x_Marvel_Spider-Man_Fortarun_Shoes_Red_GZ0653_02_standard_hover.jpg');
+}
+
+.card .card24:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/734614532bfc42c58cb8afc50124d890_9366/adidas_x_Classic_LEGOr_Bodysuit_Blue_IJ7274_02_laydown_hover.jpg');
+}

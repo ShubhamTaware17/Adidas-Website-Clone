@@ -1,0 +1,122 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.card .card1:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/46ca7b4539354f53988daf8d00addc10_9366/Tiro_Suit-Up_Advanced_Track_Pants_Black_IB2306_HM5_hover.jpg');
+}
+
+.card .card2:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6823d9ecdc5f4625abe0c1249a02fb6b_9366/adidas_x_KSENIASCHNAIDER_Reprocessed_Track_Pants_Multicolor_II0759_25_model.jpg');
+}
+
+.card .card3:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5f2fc8223cac4d3e86cc26e483e36aac_9366/Future_Icons_3-Stripes_Pants_Purple_IL3043_25_model.jpg');
+}
+
+.card .card4:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3f1db639b2d444fc983684bc4af058d3_9366/Own_the_Run_Astro_Knit_Pants_Black_HN0806_HM3_hover.jpg');
+}
+
+.card .card5:hover img {
+    content: url('https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/c59f2acc61cd434fa764583db469d4de_9366/Lounge_Ribbed_Flared-Leg_Pants_Black_IJ8454_22_model.jpg');
+}
+
+.card .card6:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/096bf7b9bec7403383ffafa4010e275e_9366/Z.N.E._Pants_Grey_IN5141_23_hover_model.jpg');
+}
+
+.card .card7:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2ec2221f4bf540e6b2883a41967caba4_faec/adidas_Basketball_Hoodie_Black_IN4243_HM3_hover.jpg');
+}
+
+.card .card8:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ecffbbd049054ef5bd2685aca00eb673_9366/Essentials_3-Stripes_Light_Down_Jacket_Brown_IK3230_22_model.jpg');
+}
+
+.card .card9:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1d3d28979db846fa8ee3cb20cbc93d65_9366/Terrex_Trail_Running_Wind_Jacket_Blue_IA1808_22_model.jpg');
+}
+
+.card .card10:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/836e67051fc748ef8a90afc8012a03a1_9366/PRIDE_RM_Hoodie_Set_White_II0903_23_hover_model.jpg');
+}
+
+.card .card11:hover img {
+    content: url('https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/f790c9d80c5b45f98314ae08015d2ed0_9366/3_STRIPES_YOGA_PANTS_Black_DU0841_22_model.jpg');
+}
+
+.card .card12:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c2640737831448798d4f6e91079551cf_9366/Own_the_Run_Allover_Print_Hooded_Running_Windbreaker_White_IJ5427_23_hover_model.jpgg');
+}
+
+.card .card13:hover img {
+    content: url('https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/e198c8eef0a24d31a838afa100e41984_9366/NMD_S1_Shoes_White_HQ4465_03_standard.jpg');
+}
+
+.card .card14:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7b23b47dde0c435a867aafbf00f4fc49_9366/NMD_S1_Knit_Shoes_Black_ID4854_03_standard.jpg');
+}
+
+.card .card15:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/02be1511e7a74318a43aaf8800ea0520_9366/NMD_R1_Shoes_Black_HP9780_02_standard.jpg');
+}
+
+.card .card16:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f8868539e5234d3d878fafb6014fdab7_9366/NMD_G1_Shoes_Beige_ID2395_03_standard.jpg');
+}
+
+.card .card17:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/54ffae8ee90845ddb967af56016b1bc3_9366/NMD_R1_Shoes_Blue_IE2280_03_standard.jpg');
+}
+
+.card .card18:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/831ed3e6c4fd4f6b853eaf4601591cfd_9366/NMD_Shoes_White_HQ1651_03_standard.jpg');
+}
+
+.card .card19:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/477c3e75c9664e6c983fad0800cb5916_9366/NMD_R1_Shoes_Black_GZ9257_03_standard.jpg');
+}
+
+.card .card20:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d8804b84134149bdaa1eaf5d010827da_9366/NMD_R1_Shoes_White_GY7368_03_standard.jpg');
+}
+
+.card .card21:hover img {
+    content: url('https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/680f4199aa6e4226b539ad1e00dd1513_9366/NMD_R1_Shoes_White_GZ9260_03_standard.jpg');
+}
+
+.card .card22:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a3fe18350b9b4a1ab10baf8c00d2fc29_9366/NMD_R1_Shoes_Blue_HQ4462_03_standard.jpg');
+}
+
+.card .card23:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/cf0da4f2417f4d17b65c6e4190353a63_9366/NMD_S1_Shoes_Grey_ID0360_03_standard.jpg');
+}
+
+.card .card24:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/50228de58d514b6dbcafae1e002b7525_9366/NMD_R1_Shoes_Black_GW5698_03_standard.jpg');
+}
+
+.card .card25:hover img {
+    content: url('');
+}
+
+.card .card26:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bebeba85a39446e18539aef900ba6f32_9366/NMD_S1_Shoes_Black_FZ6381_02_standard_hover.jpg');
+}
+
+.card .card27:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c3be0f89637477bbf47ae20001a61a1_9366/NMD_R1_Shoes_White_GW5699_02_standard.jpg');
+}
+
+.card .card28:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3681a5b482774c039ddaaf2301531b1f_9366/NMD_S1_RYAT_Shoes_Green_IE4686_02_standard.jpg');
+}
+
+.bar-2 ul {
+    gap: 0.9rem !important;
+}

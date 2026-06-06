@@ -1,0 +1,423 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+}
+
+/* Button Css*/
+.buttonwrap {
+    background-color: none;
+    border: 1px solid black;
+    width: 15.1rem !important;
+}
+
+.signupButton svg {
+    transform: rotate(180deg);
+    width: 2rem;
+    margin-bottom: 4px;
+}
+
+.bar-2 ul {
+    gap: 0.8rem !important;
+}
+
+.signupButton {
+    width: 15rem !important;
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    display: flex;
+    padding: 7px 10px;
+    position: relative;
+    width: auto;
+    justify-content: flex-start;
+    transform: translate(-3px, -3px);
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+
+.free {
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.free:hover {
+    transform: translate(0px, 0px);
+    /* -webkit-tap-highlight-color: rgba(138, 136, 136, 0); */
+    opacity: 0.1px;
+}
+
+.free:hover {
+    color: #767677;
+}
+
+
+.returns {
+    margin-top: 10rem;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.returns-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    gap: 10rem !important;
+}
+
+.returns-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 0.9rem;
+}
+
+.returns-heading h1 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: -0.5rem !important;
+}
+
+.returns-heading p {
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: black !important;
+    /* margin-left: 1rem; */
+}
+
+.returns-heading a {
+    letter-spacing: 2px;
+    color: black !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+
+.returns-heading a:hover {
+    background-color: black;
+    color: white !important;
+    text-decoration: none;
+}
+
+.returns-footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 3rem;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.faq {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 1rem 0 !important;
+}
+
+.faq h4 {
+    text-transform: uppercase;
+}
+
+.faq svg {
+    width: 1.3rem;
+    color: black !important;
+}
+
+.button-container-returns {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem !important;
+}
+
+.button-container-returns a {
+    display: flex;
+    padding: 10px 8px;
+    border: 1px solid black;
+    width: 18rem;
+    text-decoration: none;
+    color: black !important;
+    align-items: center;
+    gap: 1rem;
+}
+
+.button-container-returns a p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+
+.button-container-returns a svg {
+    width: 1.5rem;
+    color: black;
+}
+
+@media screen and (max-width:1027px) {
+    .returns-heading p {
+        margin-bottom: -13rem !important;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .returns-container {
+        width: 90% !important;
+    }
+
+    .returns-heading {
+        align-items: flex-start !important;
+        padding-left: 10rem !important;
+    }
+
+    .returns-heading h1 {
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .returns-container {
+        width: 94% !important;
+        gap: 3rem;
+    }
+
+    .returns-heading {
+        align-items: flex-start !important;
+        padding-left: 0rem !important;
+    }
+
+    .returns-heading h1 {
+        margin-left: 0 !important;
+    }
+}
+
+
+.bar-2 ul {
+    gap: 0.9rem !important;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    border-bottom: 1px solid #ECEFF1;
+    background-color: white;
+    height: 8rem;
+    z-index: 99999;
+}
+
+.header-black-section {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    width: 100%;
+    background-color: black;
+    padding: 12px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-transform: uppercase;
+}
+
+.header-black-section span {
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    transform: scaleY(1.2);
+}
+
+.header-black-section i {
+    font-size: 15px;
+}
+
+.bar-2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 50px;
+}
+
+.bar-2 ul {
+    display: flex;
+    list-style-type: none;
+    gap: 0.3rem;
+    font-size: 12px;
+    font-weight: lighter;
+    align-items: center;
+}
+
+.bar-2 ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.bar-2 ul a:hover {
+    text-decoration: underline;
+}
+
+.bar-2 ul li {
+    font-weight: 0;
+    cursor: pointer;
+}
+
+.bar-2 ul li:hover {
+    text-decoration: underline;
+}
+
+.header-main-session {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 0px !important;
+}
+
+.adidas-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.header-menu-section {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-menu-section ul {
+    display: flex;
+    list-style-type: none;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+}
+
+.header-menu-section ul li .menu-bar {
+    text-transform: uppercase;
+    position: relative;
+    border: 3px solid transparent;
+    padding: 12px 5px;
+    z-index: 99;
+    text-decoration: none;
+    color: black;
+}
+
+.header-menu-section ul li .menu-bar:hover {
+    z-index: 20;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+    border-radius: 0 0 4px 4px;
+}
+
+.header-menu-section .red:hover {
+    border-bottom: 3px solid #E32B2B !important;
+    cursor: pointer;
+}
+
+.menu-bold {
+    font-weight: 550;
+    border: none;
+}
+
+.menu-bold .red {
+    color: #E32B2B !important;
+}
+
+.search-section-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.input-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ECEFF1;
+    padding: 8px 10px;
+    width: 12rem;
+}
+
+.input-section-header i {
+    font-size: 18px;
+}
+
+.input-section-header input {
+    background-color: #ECEFF1;
+    border: none;
+    outline: none;
+}
+
+.input-section-header input::placeholder {
+    color: black;
+    letter-spacing: 1px;
+}
+
+.logo-section-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo-section-header i {
+    font-size: 18px;
+}
+
+.cart {
+    height: 20px;
+}
+
+.logo-section-header {
+    display: flex;
+}
+
+.user-header {
+    position: relative;
+    display: flex;
+}
+
+.count {
+    padding: 4px 8px;
+    background-color: #FFD619;
+    border-radius: 100%;
+    position: absolute;
+    top: -16px;
+    right: -12px;
+    font-size: 10px;
+    font-weight: bold;
+    animation: bounce 3s cubic-bezier(.25, .1, .25, 1) infinite;
+}

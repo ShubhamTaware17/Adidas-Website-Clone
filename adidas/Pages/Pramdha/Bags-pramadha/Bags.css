@@ -1,0 +1,304 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    border-bottom: 1px solid #ECEFF1;
+    background-color: white;
+    height: 8rem;
+    z-index: 99999;
+}
+
+.bar-2 ul {
+    gap: 0.9rem !important;
+}
+
+.header-black-section {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    width: 100%;
+    background-color: black;
+    padding: 12px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-transform: uppercase;
+}
+
+.header-black-section span {
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    transform: scaleY(1.2);
+}
+
+.header-black-section i {
+    font-size: 15px;
+}
+
+.bar-2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 50px;
+}
+
+.bar-2 ul {
+    display: flex;
+    list-style-type: none;
+    gap: 0.3rem;
+    font-size: 12px;
+    font-weight: lighter;
+    align-items: center;
+}
+
+.bar-2 ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.bar-2 ul a:hover {
+    text-decoration: underline;
+}
+
+.bar-2 ul li {
+    font-weight: 0;
+    cursor: pointer;
+}
+
+.bar-2 ul li:hover {
+    text-decoration: underline;
+}
+
+.header-main-session {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 0px !important;
+}
+
+.adidas-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.header-menu-section {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-menu-section ul {
+    display: flex;
+    list-style-type: none;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+}
+
+.header-menu-section ul li .menu-bar {
+    text-transform: uppercase;
+    position: relative;
+    border: 3px solid transparent;
+    padding: 12px 5px;
+    z-index: 99;
+    text-decoration: none;
+    color: black;
+}
+
+.header-menu-section ul li .menu-bar:hover {
+    z-index: 20;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+    border-radius: 0 0 4px 4px;
+}
+
+.header-menu-section .red:hover {
+    border-bottom: 3px solid #E32B2B !important;
+    cursor: pointer;
+}
+
+.menu-bold {
+    font-weight: 550;
+    border: none;
+}
+
+.menu-bold .red {
+    color: #E32B2B !important;
+}
+
+.search-section-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.input-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ECEFF1;
+    padding: 8px 10px;
+    width: 12rem;
+}
+
+.input-section-header i {
+    font-size: 18px;
+}
+
+.input-section-header input {
+    background-color: #ECEFF1;
+    border: none;
+    outline: none;
+}
+
+.input-section-header input::placeholder {
+    color: black;
+    letter-spacing: 1px;
+}
+
+.logo-section-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo-section-header i {
+    font-size: 18px;
+}
+
+.cart {
+    height: 20px;
+}
+
+.logo-section-header {
+    display: flex;
+}
+
+.user-header {
+    position: relative;
+    display: flex;
+}
+
+.count {
+    padding: 4px 8px;
+    background-color: #FFD619;
+    border-radius: 100%;
+    position: absolute;
+    top: -16px;
+    right: -12px;
+    font-size: 10px;
+    font-weight: bold;
+    animation: bounce 3s cubic-bezier(.25, .1, .25, 1) infinite;
+}
+
+
+.card .card1:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f400acc7c5fd420cba03dc0e5723b276_9366/CHESTNUT_HOLDALL_Brown_IK9623_05_hover_standard.jpg');
+}
+
+.card .card2:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e32095774f654da0a2933d8b71b64a90_9366/Y-3_Lux_Leather_Gym_Bag_Black_IJ9877_05_hover_standard.jpg');
+}
+
+.card .card3:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e0ec880b2b1c416a8b93f50b1c563cd2_9366/Y-3_Lux_Leather_Bag_Black_IN5159_05_hover_standard.jpg');
+}
+
+.card .card4:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ec6c1a47ba7944319110bb2afbdb7dde_9366/Y-3_AOP_Shoulder_Bag_Black_IJ9872_05_hover_standard.jpg');
+}
+
+.card .card5:hover img {
+    content: url('to/f4a220bd42ac40ea9a522012bb1a4f46_9366/Y-3_AOP_Shoulder_Bag_Grey_IJ9871_04_standard.jpg');
+}
+
+.card .card6:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ac78a32777874ca8bf30afc200bbc856_9366/Blue_Version_Duffel_Bag_Black_IJ5995_05_hover_standard.jpg')
+}
+
+.card .card7:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/55c87ea0ab884ff3b156560536ab1a41_9366/Y-3_Phone_Case_Black_IJ9902_05_hover_standard.jpg');
+}
+
+.card .card8:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f075967d94d44edc835891f4a422be06_9366/Y-3_Phone_Case_Grey_IJ9903_05_hover_standard.jpg');
+}
+
+.card .card9:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4bf9daef294d49ce94c89beb7286750f_9366/Y-3_Vest_Bag_Black_IU4254_02_standard_hover.jpg');
+}
+
+.card .card10:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5f2982420dc14f97b073c5fdc26ce3c0_9366/Y-3_Card_Holder_Black_IJ9891_42_detail.jpg');
+}
+
+.card .card11:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/95d2c3a4c86945038b9f4013959999aa_9366/Y-3_Lanyard_Grey_IJ9908_42_detail.jpg');
+}
+
+.card .card12:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0c50b24fd99c47d98582afc4009c2ad8_9366/Blue_Version_Tote_Bag_Black_IJ5992_05_hover_standard.jpg');
+}
+
+.card .card13:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6cb0c7c6923746cdaafbafa600040bff_9366/Must_Haves_3D_Pocket_Backpack_Beige_IK7285_05_hover_standard.jpg');
+}
+
+.card .card14:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e422a1d2a8d14ca3a04eaf6c00c08d5a_9366/adidas_by_Stella_McCartney_Backpack_Yellow_HR4342_04_standard.jpg')
+}
+
+.card .card15:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f2ad81aabe3743148f99ac7f526a6e75_9366/Yoga_Duffel_Bag_Pink_HY0753_05_hover_standard.jpg');
+}
+
+.card .card16:hover img {
+    content: url('https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/cba8ba5146b54e80b8dbaf560116f435_9366/Blue_Version_Airliner_Bag_Black_IC0321_05_hover_standard.jpg');
+}
+
+.card .card17:hover img {
+    content: url('https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/87aa0a35a183429b9678af1c00167343_9366/EP-Syst._Team_Backpack_35_L_Blue_HN8200_05_hover_standard.jpg');
+}
+
+.card .card18:hover img {
+    content: url('https://assets.adidas.com/images/w_320,f_auto,q_auto,fl_lossy,c_fill,g_auto/b7f9c21d140a4daf8fcdaf3c00ec1573_9366/essentials-linear-backpack.jpg');
+}
+
+.card .card19:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f2ad81aabe3743148f99ac7f526a6e75_9366/Yoga_Duffel_Bag_Pink_HY0753_05_hover_standard.jpg');
+}
+
+.card .card20:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/95d2c3a4c86945038b9f4013959999aa_9366/Y-3_Lanyard_Grey_IJ9908_42_detail.jpg');
+}
+
+.card .card21:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e32095774f654da0a2933d8b71b64a90_9366/Y-3_Lux_Leather_Gym_Bag_Black_IJ9877_05_hover_standard.jpg');
+}
+
+.card .card22:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/650ef6daaf564e508e73ec5b2e58e942_9366/Lounge_Backpack_White_HY0738_05_hover_standard.jpg');
+}
+
+
+.card .card23:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ec6c1a47ba7944319110bb2afbdb7dde_9366/Y-3_AOP_Shoulder_Bag_Black_IJ9872_05_hover_standard.jpg');
+}
+
+.card .card24:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6cb0c7c6923746cdaafbafa600040bff_9366/Must_Haves_3D_Pocket_Backpack_Beige_IK7285_05_hover_standard.jpg');
+}

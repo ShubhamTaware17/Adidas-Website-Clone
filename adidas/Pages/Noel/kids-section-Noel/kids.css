@@ -1,0 +1,339 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.product-container-2 {
+    width: 100%;
+    margin: auto !important;
+}
+
+.pre-btn-2,
+.nxt-btn-2 {
+    display: none;
+}
+
+.bar-2 ul {
+    gap: 0.9rem !important;
+}
+
+.carosul-2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Button Css*/
+.buttonwrap {
+    background-color: none;
+    border: 1px solid white;
+
+}
+
+.signupButton svg {
+    transform: rotate(180deg);
+    width: 2rem;
+    margin-bottom: 4px;
+}
+
+.signupButton {
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    display: flex;
+    padding: 7px 10px;
+    position: relative;
+    width: auto;
+    justify-content: flex-start;
+    transform: translate(-3px, -3px);
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+
+.free {
+    background-color: white;
+    border-color: white;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.free:hover {
+    transform: translate(0px, 0px);
+    /* -webkit-tap-highlight-color: rgba(138, 136, 136, 0); */
+    opacity: 0.1px;
+}
+
+.free:hover {
+    color: #767677;
+}
+
+/* Button css ended */
+
+/* Handling button position */
+.navbar {
+    position: fixed;
+}
+
+.home-buttons-container {
+    bottom: 40%;
+}
+
+.men-home-p {
+    position: absolute;
+    z-index: 9999;
+    top: 42%;
+    left: -10%;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.winter-men-p {
+    left: 10%;
+    top: 45%;
+}
+
+/* # no background Image  */
+/* winter-Essential  */
+.winter-essential {
+    background-image: none;
+}
+
+/* END winter-Essential */
+
+/* new top home image  */
+.home {
+    background-color: white;
+    background-image: url('https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/em_in_world_cup_cricket_fw23_launch_glp_k_mh_d_7c93173ec3.jpg');
+    background-size: 100rem 45rem;
+    background-repeat: no-repeat;
+}
+
+.home-img-container {
+    background-image: none;
+    margin-top: 7rem;
+}
+
+.jersey-available-tag {
+    opacity: 0.9;
+    color: white;
+}
+
+.home-buttons-container {
+    margin-bottom: -1.5rem;
+}
+
+/* END new top home image */
+
+/* STATEMENT */
+.statement {
+
+    height: 20rem;
+}
+
+.statement-title {
+    font-size: larger;
+    text-align: center;
+    margin: 2rem;
+    margin-left: 20rem;
+    width: 55%;
+}
+
+.statement-summary {
+    opacity: 0.8;
+    text-align: center;
+    /* margin: 2rem; */
+    /* margin-bottom: 1rem; */
+    margin-left: 20rem;
+    width: 55%;
+    height: 30%;
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+}
+
+/* STATEMENT END  */
+
+/* DATA  */
+.data {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    height: 18rem;
+}
+
+.left-cloth {
+    display: flex;
+
+}
+
+.right-section {
+    display: flex;
+}
+
+.girls-clothing-section,
+.boys-clothing-section,
+.girls-shoe-section,
+.boys-shoe-section {
+    margin: 2rem;
+    line-height: 2.5rem;
+}
+
+.data-heading {
+
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.menu {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@media (max-width: 1024px) {
+
+    .home {
+        background-size: 64rem 25rem;
+        margin-top: 6.5rem !important;
+        background-color: rgb(10, 10, 103);
+        height: 25rem !important;
+    }
+
+    .men-home-p {
+        margin-top: -15rem;
+    }
+
+    .home-buttons-container {
+        margin-top: 13rem !important;
+        position: relative;
+    }
+
+    .statement {
+        margin-left: -10rem;
+    }
+
+    .data {
+        margin-top: -3rem;
+    }
+
+    .buttonwrapCss {
+        width: 18rem;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .home {
+        background-size: 48rem 25rem;
+        margin-top: 6.5rem !important;
+        background-color: rgb(10, 10, 103);
+        height: 25rem !important;
+    }
+
+    .men-home-p {
+        margin-left: 10rem;
+        /* margin-top: -10rem; */
+        display: none;
+    }
+
+    .home-buttons-container {
+        margin-bottom: 10rem;
+    }
+
+    .statement {
+        justify-content: center;
+        text-align: center;
+        height: 20%;
+        width: 100%;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    .statement-summary {
+        margin-left: 2rem;
+        width: 43rem;
+        height: 15rem;
+    }
+
+    .statement-title {
+        margin-left: 3rem;
+        width: 40rem;
+    }
+
+    .data {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .home {
+        margin-top: 6rem !important;
+        background-size: 26.5rem 15rem;
+        background-color: rgb(10, 10, 103);
+        height: 15rem !important;
+
+    }
+
+    .men-home-p {
+        margin-left: 5rem;
+        margin-top: 15rem;
+        display: none;
+    }
+
+    .home-buttons-container {
+        margin-top: 4rem !important;
+        position: relative;
+    }
+
+
+
+    .statement {
+        justify-content: center;
+        text-align: left;
+        height: 30%;
+        width: 100%;
+        font-size: 1.5rem;
+        margin-left: 0.3rem;
+    }
+
+    .statement-summary {
+        margin-left: 0px;
+        width: 24rem;
+        height: 20rem;
+        text-align: left;
+    }
+
+    .statement-title {
+        text-align: left;
+        margin-left: 3px;
+        width: 24rem;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 400px) {
+    .home-buttons-container {
+        margin-top: -2rem !important;
+        position: relative;
+    }
+}
+
+/* DATA END */

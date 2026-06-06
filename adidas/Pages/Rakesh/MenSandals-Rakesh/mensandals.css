@@ -1,0 +1,318 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.card .card1:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7c63bc24a5fe46e5b98bafbd0079a362_9366/BENTTON_II_SANDALS_Blue_CM5959_02_standard_hover.jpg');
+}
+
+.card .card2:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/90b87cf6ec0b4f8f9eeaaf8d00d8598b_9366/PLODZEE_SANDALS_Black_GC0758_02_standard_hover.jpg');
+}
+
+.card .card3:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6ea946351cad49ad86d5af880144c9cd_9366/ADISIST_SANDALS_Turquoise_GC0756_02_standard_hover.jpg');
+}
+
+.card .card4:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/cb3edb9b6d464d5889e1ad1d00ed96f1_9366/Adilette_Comfort_Sandals_Black_GV9712_02_standard_hover.jpg');
+}
+
+.card .card5:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a467a9fe9fc64631a1aeafb200d27e9c_9366/MECHAN_SANDALS_Brown_GC0794_02_standard_hover.jpg');
+}
+
+.card .card6:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0d47c61cc6174a0eb0feaf8d00865fda_9366/STRUDI_SANDALS_Black_GC0751_02_standard_hover.jpg');
+}
+
+.card .card7:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/297aa0bbdaa9450ab61faf78006730d3_9366/CRUZIO_SANDALS_Grey_GC0787_02_standard_hover.jpg');
+}
+
+.card .card8:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/71abb3f957e44ebb8ce9ad7100dd9c22_9366/Adilette_Comfort_Sandals_Grey_GW1054_02_standard_hover.jpg');
+}
+
+.card .card9:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f96963af405469eb002af8d0061600c_9366/STRUDI_SANDALS_Blue_GC0753_02_standard_hover.jpg');
+}
+
+.card .card10:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bde275a6fc9a48c1aabcafb200d403e3_9366/ALPINOZ_SANDALS_Green_GC0778_02_standard_hover.jpg');
+}
+
+.card .card11:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c747098eb5b4eceb32baeef00b24577_9366/HOPKAR_SANDALS_Blue_GB2955_02_standard_hover.jpg');
+}
+
+.card .card12:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fecdf6c85e2447d5a03faf8d00656494_9366/ADISSEY_SANDALS_Black_GC0774_02_standard_hover.jpg');
+}
+
+.card .card13:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e9e683f0b72047679d52af8d00616105_9366/LOW_LI_SANDALS_Blue_GC0761_02_standard_hover.jpg');
+}
+
+.card .card14:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f52fd491f37542e19350afb200cef9ba_9366/MECHAN_SANDALS_Red_GC0796_02_standard_hover.jpg');
+}
+
+.card .card15:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3d5011cda70546e8a846af5800851d03_9366/ALPINOZ_SANDALS_Grey_GB3000_02_standard_hover.jpg');
+}
+
+.card .card16:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/56db9af195f94d78811daebd00c7ff68_9366/CORE_LINEAR_TERYN_SANDALS_Green_GA3104_02_standard_hover.jpg');
+}
+
+.card .card17:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/91f6604fd8314a159270af8801301f8d_9366/LOW_LI_SANDALS_Grey_GC0760_02_standard_hover.jpg');
+}
+
+.card .card18:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/423aef6065f440fb8686af5f008f168a_9366/CRUZIO_SANDALS_Blue_GC0789_02_standard_hover.jpg');
+}
+
+.card .card19:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f1f7c6376ae64d4aa1efaf880130738e_9366/SUB_AVIOR_SANDALS_Black_GC0764_02_standard_hover.jpg');
+}
+
+.card .card20:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/aadbd99c2c624a2fa0bbaf880144c8b2_9366/ALPINOZ_SANDALS_Grey_GC0777_02_standard_hover.jpg');
+}
+
+.card .card21:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0a0011c28e8745829b93af02005c85d1_9366/HOPKAR_SANDALS_Black_GB2956_02_standard_hover.jpg');
+}
+
+.card .card22:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3036d329b9a641b2b70baf8500b378dd_9366/HENGAT_SANDALS_Grey_GC0791_02_standard_hover.jpg');
+}
+
+.card .card23:hover img {
+    content: url('https://assets.adidas.com/videos/ar_1,w_720,c_fill,q_auto,f_auto/63748b4a48e04d4180cbd72cffda5394_d98c/Terrex_Hydroterra_AT_Sandals_Black_IF7596_video.mp4');
+}
+
+.card .card24:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/273971a83a844ff8a4ba05b5dabf177d_9366/YANET_SANDALS_Black_GC0748_02_standard_hover.jpg');
+}
+
+.card .card25:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4797ab1d8e4249c4a4baaecc00841753_9366/TRIGNO_SANDALS_Black_GB2977_02_standard_hover.jpg');
+}
+
+.card .card26:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/813ebf1335f24f78bb69ae3200981f4e_9366/ADIRENGO_LIGHT_SANDALS_Brown_EY3839_02_standard_hover.jpg');
+}
+
+.card .card27:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4cb403c162c2410598bcafbd00754289_9366/SUB_AVIOR_SANDALS_Brown_GC0765_02_standard_hover.jpg');
+}
+
+.card .card28:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1b0f77a92ce046fca001aeef00b50468_9366/VICTEEZ_SANDALS_Black_GB2980_02_standard_hover.jpg');
+}
+
+.bar-2 ul {
+    gap: 0.9rem !important;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    border-bottom: 1px solid #ECEFF1;
+    background-color: white;
+    height: 8rem;
+    z-index: 99999;
+}
+
+.header-black-section {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    width: 100%;
+    background-color: black;
+    padding: 12px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-transform: uppercase;
+}
+
+.header-black-section span {
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    transform: scaleY(1.2);
+}
+
+.header-black-section i {
+    font-size: 15px;
+}
+
+.bar-2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 50px;
+}
+
+.bar-2 ul {
+    display: flex;
+    list-style-type: none;
+    gap: 0.3rem;
+    font-size: 12px;
+    font-weight: lighter;
+    align-items: center;
+}
+
+.bar-2 ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.bar-2 ul a:hover {
+    text-decoration: underline;
+}
+
+.bar-2 ul li {
+    font-weight: 0;
+    cursor: pointer;
+}
+
+.bar-2 ul li:hover {
+    text-decoration: underline;
+}
+
+.header-main-session {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 0px !important;
+}
+
+.adidas-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.header-menu-section {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-menu-section ul {
+    display: flex;
+    list-style-type: none;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+}
+
+.header-menu-section ul li .menu-bar {
+    text-transform: uppercase;
+    position: relative;
+    border: 3px solid transparent;
+    padding: 12px 5px;
+    z-index: 99;
+    text-decoration: none;
+    color: black;
+}
+
+.header-menu-section ul li .menu-bar:hover {
+    z-index: 20;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+    border-radius: 0 0 4px 4px;
+}
+
+.header-menu-section .red:hover {
+    border-bottom: 3px solid #E32B2B !important;
+    cursor: pointer;
+}
+
+.menu-bold {
+    font-weight: 550;
+    border: none;
+}
+
+.menu-bold .red {
+    color: #E32B2B !important;
+}
+
+.search-section-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.input-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ECEFF1;
+    padding: 8px 10px;
+    width: 12rem;
+}
+
+.input-section-header i {
+    font-size: 18px;
+}
+
+.input-section-header input {
+    background-color: #ECEFF1;
+    border: none;
+    outline: none;
+}
+
+.input-section-header input::placeholder {
+    color: black;
+    letter-spacing: 1px;
+}
+
+.logo-section-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo-section-header i {
+    font-size: 18px;
+}
+
+.cart {
+    height: 20px;
+}
+
+.logo-section-header {
+    display: flex;
+}
+
+.user-header {
+    position: relative;
+    display: flex;
+}
+
+.count {
+    padding: 4px 8px;
+    background-color: #FFD619;
+    border-radius: 100%;
+    position: absolute;
+    top: -16px;
+    right: -12px;
+    font-size: 10px;
+    font-weight: bold;
+    animation: bounce 3s cubic-bezier(.25, .1, .25, 1) infinite;
+}

@@ -1,0 +1,166 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.heading {
+    text-align: center;
+    justify-content: center;
+    font-family: "AdihausDIN";
+    font-weight: bolder;
+}
+
+.bt {
+    justify-content: center;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    font-family: "AdihausDIN";
+    font-size: larger;
+    transition: 0.3s;
+
+    .bt:hover {
+        opacity: 0.5;
+        transition: 0.3s;
+    }
+
+}
+
+.midbt {
+    padding-left: 660px;
+    font-family: "AdihausDIN";
+    transition: 0.3s;
+}
+
+.bb:hover {
+    opacity: 0.7;
+    transition: 0.3s
+}
+
+.tr {
+    padding-left: 687px;
+    margin-top: 30px;
+    font-family: "AdihausDIN";
+    transition: 0.3s;
+
+}
+
+#b2arrow {
+    padding-top: 9px;
+}
+
+.track {
+    color: black;
+    font-family: "AdihausDIN";
+    transition: 0.3s;
+}
+
+.center1 {
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "AdihausDIN";
+
+}
+
+.return {
+    color: black;
+    font-family: "AdihausDIN";
+    font-weight: bolder;
+
+}
+
+.center2 {
+    padding-top: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "AdihausDIN";
+
+}
+
+.refund {
+    color: black;
+    font-family: "AdihausDIN";
+    font-weight: bolder;
+
+}
+
+.bt2 {
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-family: "AdihausDIN";
+    font-size: large;
+    font-weight: bold;
+    border-width: 1px
+}
+
+.centbt {
+    padding-left: 250px;
+    padding-top: 20px;
+    font-family: "AdihausDIN";
+
+}
+
+.bt3 {
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px ;
+    font-size: large;
+    font-weight: bold;
+    border-width: 1px
+}
+
+.centbt3 {
+    padding-left: 250px;
+    padding-top: 20px;
+    font-family: "AdihausDIN";
+
+}
+
+.track:hover {
+    background-color: black;
+    color: white;
+    ;
+    font-family: "AdihausDIN";
+
+}
+
+.arrow {
+    display: flex;
+    ;
+}
+
+#explorearrow {
+    padding-top: 9px;
+}
+
+.bt2:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.bt3:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}

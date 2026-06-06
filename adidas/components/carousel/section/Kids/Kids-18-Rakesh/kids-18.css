@@ -1,0 +1,118 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.card .card1:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/428c5c9aae834022b82ba65901606571_9366/Gazelle_Shoes_Black_BB2502_02_standard_hover.jpg');
+}
+
+.card .card2:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/75d9201f851246ceb2d232452bb68941_9366/AdiFOM_Superstar_Shoes_Kids_White_IG0242_02_standard_hover.jpg');
+}
+
+.card .card3:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/608e84f5d2954001a57b84983a18f73b_9366/AdiFOM_Superstar_Shoes_Kids_White_IG0241_02_standard_hover.jpg');
+}
+
+.card .card4:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bad9df836fa14febb0063ceca633eb3f_9366/Superstar_XLG_Shoes_Kids_White_IG0289_02_standard_hover.jpg');
+}
+
+.card .card5:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/58058002cc254e559f1f29caa716356c_9366/adidas_Superstar_x_LEGOr_Shoes_Kids_White_IF2909_02_standard_hover.jpg');
+}
+
+.card .card6:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/510f0e4a65964701983caf7100881ddd_9366/Stan_Smith_Shoes_White_HQ6728_02_standard.jpg');
+}
+
+.card .card7:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a9afcdaa95d84f378d542c8f352bf878_9366/Barricade_Tennis_Shoes_Blue_IG9529_02_standard_hover.jpg');
+}
+
+.card .card8:hover img {
+    content: url('https://assets.adidas.com/videos/ar_1,w_720,c_fill,q_auto,f_auto/f7794b2fd66c4889849bad5e00be8976_d98c/adidas_Ultraboost_DNA_x_LEGOr_Colors_Shoes_White_GX2549_video.mp4');
+}
+
+.card .card9:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0d11ab5e340b4f798041af8500b3706e_9366/ADIRIO_ATTACK_1.0_SLIPPERS_Yellow_CK9405_02_standard_hover.jpg');
+}
+
+.card .card10:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1b75a48791e74f8f8010ad1e00ab33d9_9366/Ligra_7_Indoor_Shoes_Black_FZ4681_02_standard_hover.jpg');
+}
+
+.card .card11:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/05ced6bd11db41fb8581af46003f6213_9366/Response_Super_3.0_Lace_Shoes_White_HP6703_02_standard_hover.jpg');
+}
+
+.card .card12:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/eabea6318a0e41f9ac4caf5f00a4d773_9366/BEACH_CORK_1.0_B_Blue_CK9404_02_standard_hover.jpg');
+}
+
+.card .card13:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/049137b9a21b40208b29af8500b3a2d0_9366/ARIL_ATTACK_1.0_SLIPPERS_Blue_CK9401_02_standard_hover.jpg');
+}
+
+.card .card14:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1eadb2e8c0e2441989a5af8500b36433_9366/ADIRIO_ATTACK_1.0_SLIPPERS_Grey_CK9407_02_standard_hover.jpg');
+}
+
+.card .card15:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/907268393ef34bd0b909ac7500f3fa8f_9366/X_GHOSTED.3_FG_J_Pink_FW6935_02_standard_hover.jpg');
+}
+
+.card .card16:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1f571eb03cfd4e5792e7ae84003232e1_9366/Ultra_4DFWD_Shoes_Black_GX6632_02_standard_hover.jpg');
+}
+
+.card .card17:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0fae64d233a64e8799ab262a8c0d8650_9366/Supernova_Rise_Shoes_Black_IG5846_HM3_hover.jpg');
+}
+
+.card .card18:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/db5a63951c5a42f2a3eaae88018a08e1_9366/Galaxy_6_Shoes_Black_GW3848_02_standard_hover.jpg');
+}
+
+.card .card19:hover img {
+    content: url('https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/4993e0557d224195ace1afb000bc171f_9366/Ultraboost_Light_Red_HQ1402_02_standard_hover.jpg');
+}
+
+.card .card20:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/579291ff6f4c4972ad9dab4a00a0c7fc_9366/Ultimashow_Shoes_Black_FX3632_02_standard_hover.jpg');
+}
+
+.card .card21:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/93a47e10a8434b8daef4af0e0090d866_9366/WIND_RAISER_SHOES_Blue_GB2514_02_standard_hover.jpg');
+}
+
+.card .card22:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3f3b1b7c155444338733adcd00844fe2_9366/FLUIDFLOW_2.0_RUNNING_SHOE_Blue_EX2102_02_standard_hover.jpg');
+}
+
+.card .card23:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9a3c17f0964044059607af420143011f_9366/Ultraboost_1.0_Shoes_White_HQ6441_010_hover_standard.jpg');
+}
+
+.card .card24:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e693773a595b42a1a137aebb0137497c_9366/STUNICON_SHOES_Blue_GA0898_02_standard_hover.jpg');
+}
+
+.card .card25:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8185bd314c4f48e38ec9ae32009951fa_9366/ADI_ZOOM_SHOES_Black_GA0868_02_standard_hover.jpg');
+}
+
+.card .card26:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e52e019e28f042c1a077af5400ec01fb_9366/Pureboost_22_Shoes_Black_HP9014_02_standard_hover.jpg');
+}
+
+.card .card27:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8b7f2395486846f4b8f9af49006a43d2_9366/HYPERON_1.0_SHOES_Grey_CM4822_02_standard_hover.jpg');
+}
+
+.card .card28:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0333d0ea05a94d8c8b4daf8000bacf91_9366/Galaxy_6_Shoes_Green_HP2418_02_standard_hover.jpg');
+}

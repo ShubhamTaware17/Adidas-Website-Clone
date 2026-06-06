@@ -1,0 +1,124 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.bar-2 ul {
+    gap: 0.9rem !important;
+}
+
+
+
+.card .card1:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1f571eb03cfd4e5792e7ae84003232e1_9366/Ultra_4DFWD_Shoes_Black_GX6632_02_standard_hover.jpg');
+}
+
+.card .card2:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9a3c17f0964044059607af420143011f_9366/Ultraboost_1.0_Shoes_White_HQ6441_010_hover_standard.jpg');
+}
+
+.card .card3:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0d8a313277d04b2e8d55fa7b5710ff0c_9366/Ultraboost_Light_Shoes_Black_GZ5159_HM3_hover.jpg');
+}
+
+.card .card4:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/603054f90779462f92ccbc56321755e9_9366/Ultraboost_Light_Shoes_Black_GY9351_HM3_hover.jpg');
+}
+
+.card .card5:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/333d70cd5438497e8171af4501038746_9366/Ultraboost_1.0_Shoes_Black_HQ4199_010_hover_standard.jpg');
+}
+
+.card .card6:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a5b262fe50704fbebcb0d99adea69b53_9366/Ultra_4D_Shoes_Black_IG2262_02_standard_hover.jpg');
+}
+
+.card .card7:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ae9b851b38e34fddb0c1b98ebd9c1f70_9366/4DFWD_3_Running_Shoes_Black_IG8985_012_hover_standard.jpg');
+}
+
+.card .card8:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d1787d8d8c11476397297e1378c58276_9366/Ultraboost_1.0_Shoes_Blue_ID2344_02_standard_hover.jpg');
+}
+
+.card .card9:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f97d22f5b3af403ab63a5ba083e9edef_9366/Ultraboost_Light_Shoes_White_GY9350_HM3_hover.jpg');
+}
+
+.card .card10:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/94cd3516b97e4ebcb889ab890127c296_9366/Coreracer_Shoes_Black_FX3593_02_standard_hover.jpg');
+}
+
+.card .card11:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4e5a8549d5e24a198bbc8341cb379865_9366/Ultra_4D_Shoes_Beige_IF0307_010_hover_standard.jpg');
+}
+
+.card .card12:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8b847aa336344127b2d8b4d77032c32b_9366/Ultraboost_1.0_Shoes_Black_ID9682_02_standard_hover.jpg');
+}
+
+.card .card13:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ab4c88fda99b4c22b63cafbd0091403c_9366/Ultraboost_Light_Shoes_White_HQ6338_010_hover_standard.jpg');
+}
+
+.card .card14:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/19758e775aad4e00bdb01640fc3c98aa_9366/VL_Court_3.0_Shoes_Black_ID6278_02_standard_hover.jpg');
+}
+
+.card .card15:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/caff11b44e444f00a02b87272b2643af_9366/ADIZERO_SL_Black_HQ1349_HM10.jpg');
+}
+
+.card .card16:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/466ca40d53514a98a71f69b7a014a52c_9366/Ultraboost_Light_Running_Shoes_Black_IE8155_02_standard_hover.jpg');
+}
+
+.card .card17:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6ea4cac96c7d468ab83baf9000da4a02_9366/Ultraboost_Light_Shoes_Black_HQ6340_02_standard_hover.jpg');
+}
+
+.card .card18:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/037f62640484436fb159af7f010bca2a_9366/Ultraboost_Light_Shoes_Black_HQ6339_02_standard_hover.jpg');
+}
+
+.card .card19:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/15badc3e117345fbaedfd2c8736333bc_9366/4DFWD_3_Running_Shoes_Grey_IG8980_HM3_hover.jpg');
+}
+
+.card .card20:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c9045494c79b4daca8ad306c22565cdf_9366/Ultraboost_Light_23_Shoes_Black_HP6443_HM3_hover.jpg');
+}
+
+.card .card21:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2eba0f3640b14e7b9dc3ae81016644cf_9366/Galaxy_6_Shoes_Black_GW4138_02_standard_hover.jpg');
+}
+
+.card .card22:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/94fdf3fd65a94e02bfa4b5a718110535_9366/X_PLR_Boost_Shoes_Blue_ID9580_02_standard_hover.jpg');
+}
+
+.card .card23:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/632036fa97054c118b55b5a64f7fe4a5_9366/Ultraboost_1.0_ATR_Shoes_Black_ID1747_02_standard_hover.jpg');
+}
+
+.card .card24:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2118d45e0c134f728fc4af4f008a68c9_9366/Alphabounce_Bounce_Shoes_Black_HP6142_010_hover_standard.jpg');
+}
+
+.card .card25:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f15002d2716845c5a0a5ab89012746ea_9366/Coreracer_Shoes_Black_FX3581_02_standard_hover.jpg');
+}
+
+.card .card26:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7e78c2571f094f45aa07ad47008c31c2_9366/Lite_Racer_3.0_Shoes_Blue_GY3095_02_standard_hover.jpg');
+}
+
+.card .card27:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5f925d83b3ea43c0bdc84d7b1900ea03_9366/Pureboost_23_Shoes_Black_IF2375_02_standard_hover.jpg');
+}
+
+.card .card28:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b29b675df6d24c1e8b319698667c348c_9366/Switch_FWD_Running_Shoes_Black_ID1779_02_standard_hover.jpg');
+}

@@ -1,0 +1,788 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.yellow {
+  margin-top: 3rem !important;
+}
+
+@media screen and (max-width:960px) {
+  .yellow {
+    margin-top: 0 !important;
+  }
+
+  .blackNavbefore {
+    margin-top: 4rem !important;
+  }
+}
+
+.main {
+  margin: 5rem;
+  padding: 2rem;
+  height: 40rem;
+  width: 50%;
+}
+
+.head {
+  text-transform: uppercase;
+}
+
+.short-discription {
+  font-size: 1rem;
+  width: 60%;
+}
+
+.email-text-box {
+
+  border: 2px solid rgba(84, 83, 83, 0.5);
+  width: 65%;
+  height: 3rem;
+}
+
+#mail {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  padding-left: 1rem;
+}
+
+#b1 {
+  height: 22px;
+  width: 22px;
+
+}
+
+#b2 {
+  height: 20px;
+  width: 20px;
+}
+
+label {
+  opacity: 0.9;
+  margin-left: 0.5rem;
+  margin-top: 5rem;
+  font-size: 19px;
+  font-weight: 100;
+}
+
+.buttonwrap {
+  background-color: none;
+  border: 1px solid black;
+  width: 10.4rem;
+}
+
+.signupButton {
+  align-items: center;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  display: inline-flex;
+  padding: 15px 30px;
+  position: relative;
+  white-space: nowrap;
+  width: auto;
+  justify-content: flex-start;
+  text-align: left;
+  transform: translate(-3px, -3px);
+
+}
+
+.free {
+  background-color: black;
+  border-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.free:hover {
+  color: rgb(136, 133, 133);
+  opacity: 0.1px;
+
+}
+
+.buttonContent {
+  flex: 1 1 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.buttonContent .material-symbols-sharp {
+  font-size: 15rem;
+}
+
+/* MID PART START */
+.mid-part {
+  width: 90%;
+  height: 3rem;
+
+  margin-left: 5rem;
+  margin-top: 5rem;
+  display: flex;
+}
+
+.need-help {
+  margin-left: 1rem;
+  width: 35rem;
+
+}
+
+.help-topics {
+  margin-left: 25rem;
+  height: 1.1rem;
+  letter-spacing: 2px;
+}
+
+.help-topics:hover {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+
+/* MID PART END */
+
+/* BOTTOM PART START */
+
+.bottom-part {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  ;
+  width: 90%;
+  height: 25em;
+
+  justify-content: space-evenly;
+
+}
+
+.box-1 {
+  width: 75%;
+  height: 11rem;
+
+  margin-left: 4rem;
+  margin-top: 1rem;
+  line-height: 5.5rem;
+  padding-left: 1rem;
+  border: 1px solid rgba(180, 175, 175, 0.829);
+}
+
+.box-2 {
+  width: 75%;
+  height: 11rem;
+
+  margin-left: 4rem;
+  margin-top: 1rem;
+  line-height: 5.5rem;
+  padding-left: 1rem;
+  border: 1px solid rgba(180, 175, 175, 0.829);
+}
+
+.box-3 {
+  width: 75%;
+  height: 11rem;
+
+  margin-left: 4rem;
+  margin-top: 1rem;
+  line-height: 5.5rem;
+  padding-left: 1rem;
+  border: 1px solid rgba(180, 175, 175, 0.829);
+}
+
+.box-4 {
+  width: 75%;
+  height: 11rem;
+
+  margin-left: 4rem;
+  margin-top: 1rem;
+  line-height: 5.5rem;
+  padding-left: 1rem;
+  border: 1px solid rgba(180, 175, 175, 0.829);
+}
+
+.box-1:hover,
+.box-2:hover,
+.box-3:hover,
+.box-4:hover {
+  border: 1px solid black;
+}
+
+/* BOTTOM PART END */
+
+@media (max-width: 768px) {
+  .main {
+    width: 90%;
+    margin-left: 2rem;
+
+  }
+
+  .email-text-box {
+    width: 100%;
+  }
+
+  .mid-part {
+    margin-left: 1rem;
+
+    width: 95%;
+  }
+
+  /* .need-help {} */
+
+  .help-topics {
+    margin-left: -5rem;
+
+  }
+
+  .bottom-part {
+    margin-left: 1rem;
+    width: 97%;
+
+  }
+
+  .box-4 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    width: 89%;
+    margin-left: 1rem;
+    height: 45rem;
+  }
+
+  .mid-part {
+    margin-left: 5px;
+    width: 97%;
+  }
+
+  .need-help {
+    margin-left: 2px;
+
+  }
+
+  .help-topics {
+    margin-left: -8rem;
+    width: 22rem;
+    letter-spacing: 0px;
+  }
+
+  .bottom-part {
+    margin-left: 3px;
+    height: 50rem;
+    width: 98%;
+    display: block;
+  }
+
+
+}
+
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'AdihausDIN';  */
+}
+
+.footer {
+  background-color: #f5f5e5;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  column-gap: 3.125rem;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
+  align-content: center;
+}
+
+.left-half,
+.right-half {
+  box-sizing: border-box;
+}
+
+.left-half h1 {
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  margin: 0px 0px 0.625rem;
+  text-decoration: none solid rgb(0, 0, 0);
+}
+
+.right-half h2 {
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  margin: 0px 0px 0.625rem;
+
+}
+
+.left-half p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+}
+
+.right-half p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+}
+
+.blackNavbefore {
+  background-color: black;
+  color: white;
+  padding: 0.938rem;
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-top: transparent;
+}
+
+.yellow {
+  background-color: #ede734;
+  padding: 2.5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.yellow .footerCaption {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-weight: bolder;
+  font-size: 1.875rem;
+  transform: scaleY(0.9);
+  flex-wrap: nowrap;
+  -webkit-text-stroke-width: 1px;
+  width: 50%;
+  letter-spacing: 1px;
+}
+
+.buttonwrapCss {
+  margin-right: 10rem;
+  background-color: none;
+  border: 1px solid black;
+}
+
+.signupButtonCss svg {
+  transform: rotate(180deg);
+  width: 2rem;
+  margin-bottom: 4px;
+}
+
+.signupButtonCss {
+  align-items: center;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  display: flex;
+  padding: 7px 10px;
+  position: relative;
+  width: auto;
+  justify-content: flex-start;
+  transform: translate(-3px, -3px);
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.freeCss {
+  background-color: black;
+  border-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.freeCss:hover {
+  transform: translate(0px, 0px);
+  /* -webkit-tap-highlight-color: rgba(138, 136, 136, 0); */
+  opacity: 0.1px;
+}
+
+.freeCss:hover {
+  color: #767677;
+}
+
+.buttonContentCss {
+  flex: 1 1 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.buttonContentCss .material-symbols-sharp {
+  font-size: 15rem;
+}
+
+.afterblacknav {
+  background-color: black;
+  font-size: 0.938rem;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}
+
+.afterblacknav ul {
+  list-style: none;
+}
+
+.afterblacknav li {
+  padding: 0.625rem 0.938rem;
+
+}
+
+.afterblacknav a {
+  text-decoration: none;
+  color: white;
+}
+
+.afterblacknav a:hover {
+  text-decoration: underline;
+}
+
+.footerlist {
+  /* width:65%; */
+  margin: auto;
+  padding-bottom: 1.25rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footerlist h5 {
+  font-size: 1.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footerlist li {
+  list-style: none;
+  font-size: 0.875rem;
+  margin-bottom: 0.625rem;
+  cursor: pointer;
+}
+
+.adi-list-product {
+  padding: 1.25rem;
+}
+
+.adi-list-sports {
+  padding: 1.25rem;
+}
+
+.adi-list-collections {
+  padding: 1.25rem;
+}
+
+.adi-list-support {
+  padding: 1.25rem;
+}
+
+.adi-list-company-info {
+  padding: 1.25rem;
+}
+
+.adi-list-follow-us {
+  padding: 1.25rem;
+}
+
+.grayfooter {
+  background-color: #282c31;
+  /* width:100%; */
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.topcontent {
+  color: #D3D7DA;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+
+.bottomcontent {
+  color: #D3D7DA;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 290px) and (max-width: 959px) {
+  .footer .container {
+    flex-direction: column;
+  }
+
+  .footer .left-half,
+  .footer .right-half {
+    width: 100%;
+  }
+
+  .yellow {
+    flex-direction: column !important;
+  }
+
+  .footerCaption {
+    margin: auto;
+    text-align: center;
+    font-size: 1rem !important;
+  }
+
+  .buttonwrapCss {
+    /* border: 0.04rem; */
+    /* position: absolute; */
+    margin-right: 0rem;
+  }
+
+  .footerlist {
+    display: none;
+  }
+}
+
+@media screen and (min-width:960px) {
+  .blackNavbefore {
+    display: none;
+  }
+
+  .afterblacknav {
+    display: none;
+  }
+
+  .yellow .footerCaption {
+    display: inline-block;
+
+  }
+
+}
+
+.bar-2 ul {
+  gap: 0.9rem !important;
+}
+
+.bar-2 ul {
+  gap: 0.9rem !important;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.4s;
+  border-bottom: 1px solid #ECEFF1;
+  background-color: white;
+  height: 8rem;
+  z-index: 99999;
+}
+
+.header-black-section {
+  font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+  width: 100%;
+  background-color: black;
+  padding: 12px 0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-transform: uppercase;
+}
+
+.header-black-section span {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  transform: scaleY(1.2);
+}
+
+.header-black-section i {
+  font-size: 15px;
+}
+
+.bar-2 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 50px;
+}
+
+.bar-2 ul {
+  display: flex;
+  list-style-type: none;
+  gap: 0.3rem;
+  font-size: 12px;
+  font-weight: lighter;
+  align-items: center;
+}
+
+.bar-2 ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.bar-2 ul a:hover {
+  text-decoration: underline;
+}
+
+.bar-2 ul li {
+  font-weight: 0;
+  cursor: pointer;
+}
+
+.bar-2 ul li:hover {
+  text-decoration: underline;
+}
+
+.header-main-session {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  margin-top: 0px !important;
+}
+
+.adidas-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.header-menu-section {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header-menu-section ul {
+  display: flex;
+  list-style-type: none;
+  letter-spacing: 1.5px;
+  font-size: 12px;
+}
+
+.header-menu-section ul li .menu-bar {
+  text-transform: uppercase;
+  position: relative;
+  border: 3px solid transparent;
+  padding: 12px 5px;
+  z-index: 99;
+  text-decoration: none;
+  color: black;
+}
+
+.header-menu-section ul li .menu-bar:hover {
+  z-index: 20;
+  border-bottom: 3px solid black;
+  cursor: pointer;
+  border-radius: 0 0 4px 4px;
+}
+
+.header-menu-section .red:hover {
+  border-bottom: 3px solid #E32B2B !important;
+  cursor: pointer;
+}
+
+.menu-bold {
+  font-weight: 550;
+  border: none;
+}
+
+.menu-bold .red {
+  color: #E32B2B !important;
+}
+
+.search-section-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.input-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ECEFF1;
+  padding: 8px 10px;
+  width: 12rem;
+}
+
+.input-section-header i {
+  font-size: 18px;
+}
+
+.input-section-header input {
+  background-color: #ECEFF1;
+  border: none;
+  outline: none;
+}
+
+.input-section-header input::placeholder {
+  color: black;
+  letter-spacing: 1px;
+}
+
+.logo-section-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo-section-header i {
+  font-size: 18px;
+}
+
+.cart {
+  height: 20px;
+}
+
+.logo-section-header {
+  display: flex;
+}
+
+.user-header {
+  position: relative;
+  display: flex;
+}
+
+.count {
+  padding: 4px 8px;
+  background-color: #FFD619;
+  border-radius: 100%;
+  position: absolute;
+  top: -16px;
+  right: -12px;
+  font-size: 10px;
+  font-weight: bold;
+  animation: bounce 3s cubic-bezier(.25, .1, .25, 1) infinite;
+}

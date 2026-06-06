@@ -1,0 +1,69 @@
+.UpArrow {
+    width: 3rem;
+    height: 3rem;
+    background-color: black;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: bounce 2s cubic-bezier(.25, .1, .25, 1) infinite;
+    position: fixed;
+    top: 90%;
+    right: 2%;
+    z-index: 99999999;
+    opacity: 0;
+}
+
+.UpArrow svg {
+    color: white;
+    width: 1.5rem;
+}
+
+@media screen and (max-width:400px) {
+    .UpArrow {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    9%,
+    18% {
+        transform: translateY(0);
+    }
+
+    2% {
+        transform: translateY(-10px);
+    }
+
+    3% {
+        transform: translateY(-3px);
+    }
+
+    5% {
+        transform: translateY(-8px);
+    }
+
+    7% {
+        transform: translateY(-2px);
+    }
+
+    11% {
+        transform: translateY(-10px);
+    }
+
+    12% {
+        transform: translateY(-3px);
+    }
+
+    14% {
+        transform: translateY(-8px);
+    }
+
+    16% {
+        transform: translateY(-2px);
+    }
+}

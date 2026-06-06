@@ -1,0 +1,122 @@
+@import url(https://db.onlinewebfonts.com/c/c0cd6ec8ce6d2bbd315a13b62ed13550?family=AdihausDIN);
+
+body {
+    font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.card .card1:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/93e1a4b6b9034b3d939e3ebbdc639e35_9366/Wales_Bonner_Statement_Knit_Track_Top_Brown_IT9780_23_hover_model.jpg');
+}
+
+.card .card2:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8e01c8f550b44379b1ad63553d7a625c_9366/Wales_Bonner_Statement_Nylon_Track_Top_Blue_IT9783_23_hover_model.jpg');
+}
+
+.card .card3:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ccc1506ea44b4d1da7d7877b809f0b25_9366/Wales_Bonner_Samba_Pony_Tonal_Low_Trainers_White_IE0586_011_hover_standard.jpg');
+}
+
+.card .card4:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c71b710bddd44426b4de4c6ee4c595fd_9366/Wales_Bonner_Statement_Nylon_Track_Top_Black_IT9775_23_hover_model.jpg');
+}
+
+.card .card5:hover img {
+    content: url('https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/cf41f10048764e1a9fb5029993685903_9366/Wales_Bonner_Track_Suit_Pants_Blue_IT9784_23_hover_model.jpg');
+}
+
+.card .card6:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/18301b56492a41dcad0deaabf25656cd_9366/Wales_Bonner_Statement_Knit_Pants_Brown_IN5952_23_hover_model.jpg');
+}
+
+.card .card7:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d1e64beadf9349989c201e1a1fa11334_9366/Wales_Bonner_Samba_Pony_Tonal_Low_Trainers_Black_IE0580_011_hover_standard.jpg');
+}
+
+.card .card8:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/63bf4a49957f4a03aba4e105bbd76f3a_9366/Wales_Bonner_Samba_Nylon_Low_Trainers_Brown_IE0579_011_hover_standard.jpg');
+}
+
+.card .card9:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/35e608b03c844785ab243000c040ac2d_9366/Wales_Bonner_Samba_Pony_Leo_Low_Trainers_Brown_IE0578_011_hover_standard.jpg');
+}
+
+.card .card10:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/28d3dcfef32045728d557ae2c0ebc6e0_9366/Wales_Bonner_Statement_Cargo_Pants_Blue_IT9779_23_hover_model.jpg');
+}
+
+.card .card11:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ad7a9bbd774a4145851b74c805f9f233_9366/Wales_Bonner_Long_Sleeve_Knit_Top_Brown_IN5953_23_hover_model.jpg');
+}
+
+.card .card12:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/521b8c7513444261a7c4d1d11dbed3fe_9366/Wales_Bonner_Statement_Track_Top_White_IM8394_23_hover_model.jpg');
+}
+
+.card .card13:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d9c5a86df72f4883b12953cbaf24a7b5_9366/Wales_Bonner_Knit_Long_Sleeve_Football_Tee_Blue_IN5954_23_hover_model.jpg');
+}
+
+.card .card14:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0fad94472df343b282b3ffbd50e68044_9366/Wales_Bonner_Statement_Graphic_Tee_Black_IM8402_23_hover_model.jpg');
+}
+
+.card .card15:hover img {
+    content: url('https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/0abdd12c1af445bebffc981d349c1287_9366/Wales_Bonner_Statement_Graphic_Tee_White_IT9788_23_hover_model.jpg');
+}
+
+.card .card16:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c014a323759c45b5a42b63b50bbd2477_9366/Wales_Bonner_Crew_Socks_Green_IN0661_03_standard_hover.jpg');
+}
+
+.card .card17:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/54ffae8ee90845ddb967af56016b1bc3_9366/NMD_R1_Shoes_Blue_IE2280_03_standard.jpg');
+}
+
+.card .card18:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/831ed3e6c4fd4f6b853eaf4601591cfd_9366/NMD_Shoes_White_HQ1651_03_standard.jpg');
+}
+
+.card .card19:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/477c3e75c9664e6c983fad0800cb5916_9366/NMD_R1_Shoes_Black_GZ9257_03_standard.jpg');
+}
+
+.card .card20:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d8804b84134149bdaa1eaf5d010827da_9366/NMD_R1_Shoes_White_GY7368_03_standard.jpg');
+}
+
+.card .card21:hover img {
+    content: url('https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/680f4199aa6e4226b539ad1e00dd1513_9366/NMD_R1_Shoes_White_GZ9260_03_standard.jpg');
+}
+
+.card .card22:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a3fe18350b9b4a1ab10baf8c00d2fc29_9366/NMD_R1_Shoes_Blue_HQ4462_03_standard.jpg');
+}
+
+.card .card23:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/cf0da4f2417f4d17b65c6e4190353a63_9366/NMD_S1_Shoes_Grey_ID0360_03_standard.jpg');
+}
+
+.card .card24:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/50228de58d514b6dbcafae1e002b7525_9366/NMD_R1_Shoes_Black_GW5698_03_standard.jpg');
+}
+
+.card .card25:hover img {
+    content: url('');
+}
+
+.card .card26:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bebeba85a39446e18539aef900ba6f32_9366/NMD_S1_Shoes_Black_FZ6381_02_standard_hover.jpg');
+}
+
+.card .card27:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c3be0f89637477bbf47ae20001a61a1_9366/NMD_R1_Shoes_White_GW5699_02_standard.jpg');
+}
+
+.card .card28:hover img {
+    content: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3681a5b482774c039ddaaf2301531b1f_9366/NMD_S1_RYAT_Shoes_Green_IE4686_02_standard.jpg');
+}
+
+.bar-2 ul {
+    gap: 0.9rem !important;
+}
